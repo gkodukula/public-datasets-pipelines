@@ -3,10 +3,14 @@
 ## [2.7.0](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/compare/v2.6.0...v2.7.0) (2021-11-25)
 
 
-### Features
+### Datasets
 
 * Onboard Cloud Storage Geo Index Dataset ([#219](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/219)) ([27a2c8e](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/27a2c8e356cac8c51aa7b65fae508ad1d7202e9e))
-* Onboard IDC PDP datasets ([#230](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/230)) ([3f944df](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/3f944df14b428ba4e156695237563debbee67b57))
+* Onboard Imaging Data Commons (IDC) - The Cancel Imaging Archive (TCIA) dataset ([#230](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/230)) ([3f944df](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/3f944df14b428ba4e156695237563debbee67b57))
+
+
+### Features
+
 * Support CloudDataTransferServiceGCSToGCSOperator ([#229](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/229)) ([977b687](https://www.github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/977b687afc4d66ba2fc3cc68bc8a21dd8c46787e))
 
 
