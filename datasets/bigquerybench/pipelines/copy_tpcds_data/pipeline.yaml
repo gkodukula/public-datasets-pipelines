@@ -85,4 +85,4 @@ dag:
     #       limit_cpu: "200m"
 
   graph_paths:
-    - "copy_gcs_bucket"
+    - "copy_bq_datasets"

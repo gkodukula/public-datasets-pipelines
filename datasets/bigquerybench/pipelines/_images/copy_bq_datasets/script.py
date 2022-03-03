@@ -55,6 +55,7 @@ def main(
     ]
 
     _running_configs = []
+
     for version in dataset_versions:
         dataset_id = f"{version}"
         display_name = f"{transfer_config_prefix}-{version}"
