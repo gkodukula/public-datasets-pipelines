@@ -126,7 +126,7 @@ def create_transfer_config(
     service_account: str,
 ) -> bigquery_datatransfer_v1.types.TransferConfig:
     transfer_config = bigquery_datatransfer_v1.TransferConfig(
-        destination_dataset_id=dataset_id,
+        destination_dataset_id=f"bigquerybench_{dataset_id}",
         display_name=display_name,
         data_source_id="cross_region_copy",
         dataset_region="US",
@@ -144,6 +144,7 @@ def create_transfer_config(
         transfer_config=transfer_config,
         service_account_name=service_account,
     )
+    print("request is {}".format(request))
 
     return client.create_transfer_config(request=request)
 
